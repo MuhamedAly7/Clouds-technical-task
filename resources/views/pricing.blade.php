@@ -35,7 +35,7 @@
                 </span>
                 <p class="mt-2 text-sm text-gray-500">No commitments. Cancel anytime.</p>
 
-                <a href="{{ route('checkout', ['plan' => 'price_1Qlk5NRrVtmLvQrRu5W5D9K2']) }}" class="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-indigo-100 text-indigo-800 hover:bg-indigo-200 disabled:opacity-50 disabled:pointer-events-none">
+                <a href="{{ route('checkout', ['plan' => env('MONTHLY_PLAN_ID')]) }}" class="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-indigo-100 text-indigo-800 hover:bg-indigo-200 disabled:opacity-50 disabled:pointer-events-none">
                     Sign up
                 </a>
             </div>
@@ -51,7 +51,7 @@
                 </span>
                 <p class="mt-2 text-sm text-gray-500">Save 30% with full access for 1 year.</p>
 
-                <a href="{{ route('checkout', ['plan' => 'price_1Qlk5NRrVtmLvQrRG6u53Nmj']) }}" class="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-50 disabled:pointer-events-none">
+                <a href="{{ route('checkout', ['plan' => env('YEARLY_PLAN_ID')]) }}" class="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-50 disabled:pointer-events-none">
                     Sign up
                 </a>
             </div>
